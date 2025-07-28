@@ -117,7 +117,7 @@ export function Filters({ onFiltersChange, className }: FiltersProps) {
                   filters.category.length,
                   filters.amountRange.min && 1,
                   filters.amountRange.max && 1,
-                ].filter(Boolean).reduce((a, b) => a + b, 0)}
+                ].filter(Boolean).reduce((a, b) => (a || 0) + (b || 0), 0)}
               </Badge>
             )}
           </Button>

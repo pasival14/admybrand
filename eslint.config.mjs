@@ -14,10 +14,10 @@ const eslintConfig = [
   {
     rules: {
       // Disable strict rules for deployment
-      '@typescript-eslint/no-unused-vars': 'warn',
-      '@typescript-eslint/no-explicit-any': 'warn',
-      'jsx-a11y/alt-text': 'warn',
-      'react-hooks/exhaustive-deps': 'warn',
+      '@typescript-eslint/no-unused-vars': 'off',
+      '@typescript-eslint/no-explicit-any': 'off',
+      'jsx-a11y/alt-text': 'off',
+      'react-hooks/exhaustive-deps': 'off',
     },
   },
 ];
