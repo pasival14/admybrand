@@ -98,7 +98,7 @@ function DashboardContent() {
                   <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-4 md:mb-6 space-y-4 sm:space-y-0">
                     <div className="space-y-2">
                       <h2 className="text-xl md:text-2xl font-bold">Welcome Jonathan Deo</h2>
-                      <p className="text-blue-100 text-sm">Here's what's happening with your business today</p>
+                      <p className="text-blue-100 text-sm">Here&apos;s what&apos;s happening with your business today</p>
                     </div>
                     <div className="relative">
                       <div className="w-16 md:w-20 h-16 md:h-20 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
@@ -140,7 +140,7 @@ function DashboardContent() {
                         <div className="font-semibold">12</div>
                       </div>
                       <div className="text-center">
-                        <div className="text-xs text-blue-100">Today's Revenue</div>
+                        <div className="text-xs text-blue-100">Today&apos;s Revenue</div>
                         <div className="font-semibold">$8,432</div>
                       </div>
                     </div>
