@@ -141,16 +141,18 @@ function AnalyticsContent() {
                   Advanced
                 </Badge>
               </div>
-              <div className="flex items-center space-x-2">
-                <MobileNav />
-                <Button variant="outline" size="sm" onClick={() => setShowAdvanced(!showAdvanced)}>
-                  {showAdvanced ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
-                  {showAdvanced ? "Hide Advanced" : "Show Advanced"}
-                </Button>
-                <Button variant="outline" size="sm">
-                  <Download className="w-4 h-4 mr-2" />
-                  Export
-                </Button>
+              <div className="flex items-center justify-between space-x-2">
+                <div className="flex items-center space-x-2">
+                  <MobileNav />
+                  <Button variant="outline" size="sm" onClick={() => setShowAdvanced(!showAdvanced)}>
+                    {showAdvanced ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                    {showAdvanced ? "Hide Advanced" : "Show Advanced"}
+                  </Button>
+                  <Button variant="outline" size="sm">
+                    <Download className="w-4 h-4 mr-2" />
+                    Export
+                  </Button>
+                </div>
                 <ThemeToggle />
               </div>
             </div>

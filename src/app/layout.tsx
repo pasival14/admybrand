@@ -7,8 +7,8 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: "AdmyBrand Analytics Dashboard",
-  description: "Modern analytics dashboard for Admyrrand",
+  title: "AdMyBrand Analytics Dashboard",
+  description: "Modern analytics dashboard for AdMyBrand",
 };
 
 export default function RootLayout({

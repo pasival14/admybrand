@@ -46,7 +46,7 @@ function DashboardContent() {
     setTimeout(() => {
       showNotification({
         type: "success",
-        title: "Welcome to AdMyBrand Analytics!",
+        title: "Welcome to Admyrrand Analytics!",
         message: "Your dashboard is ready with real-time data and insights.",
         duration: 5000
       });
@@ -75,11 +75,9 @@ function DashboardContent() {
                   <h1 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white">Dashboard Analytics</h1>
                 </div>
               </div>
-              <div className="flex items-center justify-between space-x-2">
-                <div className="flex items-center space-x-2">
-                  <MobileNav />
-                  <ExportButton data={payments} filename="dashboard-transactions" />
-                </div>
+              <div className="flex items-center space-x-2">
+                <MobileNav />
+                <ExportButton data={payments} filename="dashboard-transactions" />
                 <ThemeToggle />
               </div>
             </div>

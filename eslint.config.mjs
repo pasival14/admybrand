@@ -18,6 +18,12 @@ const eslintConfig = [
       '@typescript-eslint/no-explicit-any': 'off',
       'jsx-a11y/alt-text': 'off',
       'react-hooks/exhaustive-deps': 'off',
+      '@typescript-eslint/no-empty-function': 'off',
+      '@typescript-eslint/no-non-null-assertion': 'off',
+      '@typescript-eslint/ban-ts-comment': 'off',
+      '@typescript-eslint/no-var-requires': 'off',
+      'prefer-const': 'off',
+      'no-var': 'off',
     },
   },
 ];

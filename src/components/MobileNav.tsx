@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { useRouter, usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
 import { Menu } from "lucide-react"
 import { sidebarItems } from "./Sidebar"
 
@@ -26,6 +26,9 @@ export function MobileNav() {
           </Button>
         </SheetTrigger>
         <SheetContent side="left" className="w-80 p-0">
+          <SheetHeader className="sr-only">
+            <SheetTitle>Navigation Menu</SheetTitle>
+          </SheetHeader>
           <div className="flex flex-col h-full">
             {/* Header */}
             <div className="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-700">
@@ -33,7 +36,7 @@ export function MobileNav() {
                 <div className="w-8 h-8 bg-gradient-to-b from-pink-500 via-purple-500 to-blue-500 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-sm">MY</span>
                 </div>
-                <span className="font-semibold text-gray-900 dark:text-white">Admyrrand</span>
+                <span className="font-semibold text-gray-900 dark:text-white">AdMyBrand</span>
               </div>
             </div>
 
