@@ -1,6 +1,6 @@
 # 🚀 AdMyBrand Analytics Dashboard
 
-https://admybrand-nine.vercel.app/messages
+https://admybrand-nine.vercel.app/
 
 A modern, responsive analytics dashboard built with Next.js 14+ and shadcn/ui, designed for digital marketing agencies and businesses to track key performance metrics.
 
